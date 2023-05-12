@@ -7,6 +7,8 @@ class Solution:
         for i in range(lNum):
             if target>nums[i]:
                 index+=1
+            else:
+                break
 
 
 
